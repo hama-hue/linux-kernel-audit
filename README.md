@@ -10,7 +10,7 @@ This project is a structured audit of the Linux Kernel, focusing on its architec
 * Explore Linux kernel structure
 * Perform system-level operations using shell scripting
 
-##Scripts Included
+## Scripts Included
 
 ### 1. System Identity Script
 
@@ -32,7 +32,7 @@ Creates backups of shell scripts automatically.
 
 Checks for system updates using package manager.
 
-##Environment
+## Environment
 
 * OS: Ubuntu (WSL2)
 * Shell: Bash
