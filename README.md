@@ -16,21 +16,31 @@ This project is a structured audit of the Linux Kernel, focusing on its architec
 
 Displays system information like hostname, kernel version, OS, and architecture.
 
-### 2. Process Monitor Script
+### 2. FOSS Package Inspector
 
-Shows top CPU-consuming processes using Linux commands.
+Checks if the Linux Kernel is present, retrieves version information, and prints a philosophy statement.
 
-### 3. Log Analyzer Script
+### 3. Disk and Permission Auditor
 
-Analyzes failed login attempts from system logs.
+Audits important system directories and displays:
 
-### 4. Backup Script
+Permissions
+Ownership
+Disk usage
 
-Creates backups of shell scripts automatically.
+Also checks Linux Kernel configuration files.
 
-### 5. System Update Script
+### 4. Log File Analyzer
 
-Checks for system updates using package manager.
+Analyzes system log files:
+
+Counts occurrences of keywords (error/warning)
+Displays last 5 matching entries
+Handles empty log files gracefully
+
+### 5. Open Source Manifesto Generator
+
+Generates a personalized open-source philosophy statement based on user input and saves it to a file.
 
 ## Environment
 
