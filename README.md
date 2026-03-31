@@ -24,9 +24,9 @@ Checks if the Linux Kernel is present, retrieves version information, and prints
 
 Audits important system directories and displays:
 
-Permissions
-Ownership
-Disk usage
+* Permissions
+* Ownership
+* Disk usage
 
 Also checks Linux Kernel configuration files.
 
@@ -34,9 +34,9 @@ Also checks Linux Kernel configuration files.
 
 Analyzes system log files:
 
-Counts occurrences of keywords (error/warning)
-Displays last 5 matching entries
-Handles empty log files gracefully
+* Counts occurrences of keywords (error/warning)
+* Displays last 5 matching entries
+* Handles empty log files gracefully
 
 ### 5. Open Source Manifesto Generator
 
